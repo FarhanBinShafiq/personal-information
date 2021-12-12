@@ -1,15 +1,18 @@
 import React from 'react';
+import './Person.css'
 
 const Person = (props) => {
  
-   const{img,name,id,salary,gender}=props.person
+   const{image,full_name,email,salary,job_title}=props.person
     return (
-        <div>
-            <img src={img} alt="" />
-            <h2>Name:{name}</h2>
-            <p>ID:{id}</p>
-            <p>Salary:${salary}</p>
-            <p>Gender:{gender}</p>
+    
+    <div className='person-container'>
+            <img src={image} alt="" />
+            <h2>Name: {full_name}</h2>
+            <p>Designation: {job_title}</p>
+            <p>Salary: {salary}</p>
+            <p>E-mail: {email}</p>
+            
         </div>
     );
 };

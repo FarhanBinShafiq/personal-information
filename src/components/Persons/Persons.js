@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Person from '../Person/Person';
+import './Persons.css'
 
 const Persons = () => {
  
@@ -14,7 +15,7 @@ const Persons = () => {
     },[])
 
     return (
-        <div>
+        <div className='persons-container'>
            { persons.map(person=><Person 
            key={person.id}
            person={person}
