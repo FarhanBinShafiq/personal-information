@@ -1,3 +1,29 @@
 .person-container{
-    padding: 20px;
+    text-decoration: rgb(0, 51, 0);
+    background-color:rgb(153, 255, 204);
+    border: 1px solid aquamarine;
+    padding: 5px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white ;
+    height: 450px;
+    width: 280px;
+    color: salmon;
+    transition: transform .2s;
 }
+
+.person-img{
+    background-color: rgb(255, 204, 153);
+    padding: 20px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid rgb(79, 45, 160);
+    height: 150px;
+    width: 200px;
+}
+
+.person-img:hover{
+    background-color: slategray;
+}
+

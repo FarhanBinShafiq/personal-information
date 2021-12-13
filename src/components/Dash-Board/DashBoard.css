@@ -1,0 +1,14 @@
+.dashboard-container{
+    background-color: sandybrown;
+    padding: 10px;
+    margin: 10px;
+    position: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.856);
+   
+}
+
+
+.dashboard-title{
+    text-align: center;
+}

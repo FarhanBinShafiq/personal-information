@@ -1,7 +1,33 @@
+.persons{
+    display: flex;
+  
+}
+
+
 .persons-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: aqua;
-    padding: 20px;
-    border: 1px solid blue;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    border-right: 5px solid saddlebrown; 
+    
+     
+}
+
+
+.person-button{
+    background-color: salmon;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 160px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+
+.person-button:hover{
+    background-color: slategray;
+    color: sandybrown;
 }
